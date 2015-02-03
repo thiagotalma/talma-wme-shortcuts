@@ -1,6 +1,6 @@
 {
   "name": "Talma-WME-Shortcuts",
-  "version": "0.1",
+  "version": "0.1.0",
   "dependencies": {
     "jasmine-favicon-reporter": "*",
     "stubmodule": "0.6.0",
