@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>QUnit basic example</title>
+    <link rel="stylesheet" href="//code.jquery.com/qunit/qunit-1.17.1.css">
+</head>
+<body>
+<div id="qunit"></div>
+<div id="qunit-fixture"></div>
+<script src="//dl.dropboxusercontent.com/s/5xibwvhaam7leq4/testesUnit.js"></script>
+<script src="//talma-bookmarklets.appspot.com/waze/acertarNomeRua.js"></script>
+<script src="//code.jquery.com/qunit/qunit-1.17.1.js"></script>
+<script>
+    var dupla, i,
+            valor;
+    QUnit.test("Teste de Correções", function (assert) {
+        for (i = 0; i < testesUnit.length; i++) {
+            dupla = testesUnit[i];
+            valor = talmaAcertarNomeRuaReplace(dupla[0]);
+            assert.equal(valor, dupla[1]);
+        }
+    });
+</script>
+</body>
+</html>
