@@ -1,12 +1,11 @@
 {
-  "name": "Talma-WME-Shortcuts",
+  "name": "talma-wme-shortcuts",
   "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/thiagotalma/talma-wme-shortcuts.git"
   },
   "devDependencies": {
-    "dojo": "^1.10",
     "grunt": "^0.4",
     "grunt-bump": "^0",
     "grunt-contrib-clean": "^0",

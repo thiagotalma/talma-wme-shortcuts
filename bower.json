@@ -1,5 +1,5 @@
 {
-  "name": "Talma-WME-Shortcuts",
+  "name": "talma-wme-shortcuts",
   "version": "0.1.0",
   "dependencies": {
     "jasmine-favicon-reporter": "*",
