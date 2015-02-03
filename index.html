@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Talma Bookmarklets</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="page-header"><h1>Talma Bookmarklets </h1></div>
+
+    <h2>Waze</h2>
+
+    <p><a class="btn btn-sm btn-primary"
+          href="javascript:(function()%7Bfunction%20callback()%7BacertarNomeRua()%7Dvar%20s%3Ddocument.createElement(%22script%22)%3Bs.src%3D%22https%3A%2F%2Ftalma-bookmarklets.appspot.com%2Fwaze%2FacertarNomeRua.js%22%3Bif(s.addEventListener)%7Bs.addEventListener(%22load%22%2Ccallback%2Cfalse)%7Delse%20if(s.readyState)%7Bs.onreadystatechange%3Dcallback%7Ddocument.body.appendChild(s)%3B%7D)()">Acertar
+        Rua</a></p>
+
+    <p><strong>O que ele faz?</strong><br/>
+        Simula voc&ecirc; clicando e alterando o nome das ruas.<br/>
+        Corrige abrevia&ccedil;&otilde;es de acordo com a tabela do wiki e acentua palavras comuns, como nomes de pessoas.<br/>
+        Exemplo:<br/>
+        Nome antes: Rua Professor Antonio De Almeida E Silva<br/>
+        Corrigido: R. Prof. Ant&ocirc;nio de Almeida e Silva</p>
+
+    <p><strong>Como usar?</strong></p>
+
+    <ol>
+        <li>Criar um bookmarklet (<a href="http://pt.wikipedia.org/wiki/Bookmarklet">?</a>).&nbsp;A forma mais f&aacute;cil &eacute; arrastar o botão "Acertar Rua" acima at&eacute; sua barra de favoritos;</li>
+        <li>Vá no WME. Se for a primeira vez, force o recarregamento da página apertando <kbd>ctrl + F5</kbd>;</li>
+        <li>Clique no favorito e aguarde ele carregar o script. Um alerta &eacute; mostrado quando carregar com sucesso;</li>
+        <li>Selecione um segmento que precisa ajustar a abrevia&ccedil;&atilde;o;</li>
+        <li>Aperte <kbd>ctrl + Q</kbd>;</li>
+        <li>Observe a altera&ccedil;&atilde;o e confira se est&aacute; tudo certo;</li>
+        <li>Aperte o bot&atilde;o para salvar.</li>
+    </ol>
+
+    <p><strong>Como ele trabalha?</strong></p>
+
+    <ol>
+        <li>&quot;Magicamente&quot; clica para selecionar toda a via;</li>
+        <li>Clica para editar os segmentos;</li>
+        <li>Faz as substitui&ccedil;&otilde;es necess&aacute;rias no nome da via;</li>
+        <li>Clica para aplicar.</li>
+    </ol>
+
+    <p><strong>O que ele n&atilde;o faz?</strong></p>
+
+    <ul>
+        <li>Salvar. Nada &eacute; salvo automaticamente para que voc&ecirc; possa conferir se est&aacute; tudo certo e ent&atilde;o manualmente clicar para salvar;</li>
+        <li>Altera&ccedil;&atilde;o em massa. O script &eacute; uma AJUDA para editar, n&atilde;o &eacute; um automatizador do WME.</li>
+    </ul>
+
+    <p>Se acharem que d&aacute; para ajustar mais coisas &eacute; s&oacute; sugerirem que incluo no script.<br/>
+        Abra&ccedil;os!</p>
+    <hr/>
+    <p class="text-center">Thiago Talma (w-az-e)</p>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
