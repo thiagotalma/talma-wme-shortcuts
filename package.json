@@ -1,3 +1,4 @@
+"name": "talma-wme-shortcuts",
 "scripts": {
     "test": "grunt travis -v"
 }
